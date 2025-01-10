@@ -16,7 +16,7 @@ def scrape_website(url):
     soup = BeautifulSoup(response.content, 'html.parser')
     return soup
 
-
+"Testing webhooks"
 def extract_data(soup):
     # Custom extraction logic (Example: Extracting all links)
     data = []
